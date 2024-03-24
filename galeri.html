@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .galeri {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .galeri img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Ubah nilai `z` sesuai NRP Anda */
+@media (min-width: 768px) {
+  .galeri {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .galeri img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .galeri img:nth-child(z) {
+    /* Gaya khusus untuk gambar NRP Anda */
+    border: 2px solid #000;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="galeri">
+        <img src="images/gambar.jpg" alt="">
+        <img src="images/gambar - Copy.jpg" alt="">
+        <img src="images/gambar - Copy (2).jpg" alt="">
+        <img src="images/gambar1.jpg" alt="">
+        <img src="images/gambar1 - Copy.jpg" alt="">
+        <img src="images/gambar1 - Copy (2).jpg" alt="">
+        <img src="images/gambar2.jpg" alt="">
+        <img src="images/gambar2 - Copy.jpg" alt="">
+        <img src="images/gambar2 - Copy (2).jpg" alt="">
+        <img src="images/gambar4.jpg" alt="">
+        <img src="images/gambar4 - Copy.jpg" alt="">
+        <img src="images/gambar4 - Copy (2).jpg" alt="">
+        <img src="images/gambar5.jpg" alt="">
+        <img src="images/gambar5 - Copy.jpg" alt="">
+        <img src="images/gambar5 - Copy (2).jpg" alt="">
+        <img src="images/gambar6.jpg" alt="">
+        <img src="images/gambar6 - Copy.jpg" alt="">
+        <img src="images/gambar6 - Copy (2).jpg" alt="">
+    </div>
+</body>
+</html>
